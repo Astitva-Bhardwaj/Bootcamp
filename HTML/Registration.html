@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Registration.css">
+    <style>
+        /* Add any additional inline styles here if needed */
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Welcome to my Registration Page</h2>
+
+        <div class="registration-container">
+            <a href="registration.html">
+                <img src="registration_image.jpg" alt="Registration Image">
+            </a>
+
+            <form action="">
+
+                <label for="name">Name:</label>
+                <input type="text" name="name" value=""><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob"><br>
+
+                <label for="password">Password:</label>
+                <input type="password" name="password" value=""><br>
+
+                <label for="city">City:</label>
+                <select name="city">
+                    <option value="" disabled selected>Select your city</option>
+                    <option value="city1">City 1</option>
+                    <option value="city2">City 2</option>
+                    <option value="city3">City 3</option>
+                </select><br>
+
+                <label for="hobbies">Hobbies:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" name="hobbies[]" value="Football" id="hobby1">
+                    <label for="hobby1">Football</label>
+
+                    <input type="checkbox" name="hobbies[]" value="Gaming" id="hobby2">
+                    <label for="hobby2">Gaming</label>
+
+                    <input type="checkbox" name="hobbies[]" value="Sports" id="hobby3">
+                    <label for="hobby3">Sports</label>
+                </div><br>
+
+                <label>Gender:</label>
+                <input type="radio"  name="gender" value="male" >
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="female" >
+                <label for="female">Female</label><br>
+                
+                <input type="submit" value="Register">
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
