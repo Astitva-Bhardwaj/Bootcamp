@@ -1,0 +1,6 @@
+langchain-cohere
+langchain-community
+langgraph
+python-dotenv
+rich
+tavily-python
